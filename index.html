@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <script src="./scripts/db.js"></script>
 </head>
-<body>
+<body onload="init()">
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1">QuizApp</span>
@@ -18,30 +19,30 @@
         <div class="card quiz-card">
             <img src="./assets/img/brainbg.jpg" class="card-img-top" alt="Brain">
             <div class="card-body">
-                <h5 class="card-title">Frage</h5>
-                <div class="card mb-2">
-                    <div class="card-body">
-                      Frage
+                <h5 id="question" class="card-title"></h5>
+                <div class="card quiz-answer-card mb-2">
+                    <div onclick="answer(1)" id="answer1" class="card-body">
+                      
                     </div>
                 </div>
-                <div class="card mb-2">
-                    <div class="card-body">
-                      Frage
+                <div class="card quiz-answer-card mb-2">
+                    <div onclick="answer(2)" id="answer2" class="card-body">
+                      
                     </div>
                 </div>
-                <div class="card mb-2">
-                    <div class="card-body">
-                        Frage
+                <div class="card quiz-answer-card mb-2">
+                    <div onclick="answer(3)" id="answer3" class="card-body">
+                        
                     </div>
                 </div>
-                <div class="card mb-2">
-                    <div class="card-body">
-                      Frage
+                <div class="card quiz-answer-card mb-2">
+                    <div onclick="answer(4)" id="answer4" class="card-body">
+            
                     </div>
                 </div>
                 <div class="question-footer">
-                    <span><b>1</b> von <b>5</b> Fragen</span>
-                    <button type="button" class="btn btn-primary">Nächste Frage</button>
+                    <span><b>1</b> von <b id="lastQuesttionAmount"></b> Fragen</span>
+                    <button type="button" class="btn btn-primary" id="nextButton" disabled>Nächste Frage</button>
                 </div>
             </div>
         </div>
