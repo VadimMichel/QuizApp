@@ -17,30 +17,30 @@ let questions = [
     },
     {
         "question": "Welches Element definiert ein Absatz in HTML?",
-        "answer_1": "<p>",
-        "answer_2": "<a>",
-        "answer_3": "<div>",
-        "answer_4": "<span>",
+        "answer_1": "&#60;p&#62;",
+        "answer_2": "&#60;a&#62;",
+        "answer_3": "&#60;div&#62;",
+        "answer_4": "&#60;span&#62;",
         "right_answer": 1
     },
     {
         "question": "Wie fügt man ein Bild in HTML ein?",
-        "answer_1": "<image src='bild.jpg'>",
-        "answer_2": "<img src='bild.jpg'>",
-        "answer_3": "<picture src='bild.jpg'>",
-        "answer_4": "<pic src='bild.jpg'>",
+        "answer_1": "&#60;image src='bild.jpg'&#62;",
+        "answer_2": "&#60;img src='bild.jpg'&#62;",
+        "answer_3": "&#60;picture src='bild.jpg'&#62;",
+        "answer_4": "&#60;pic src='bild.jpg'&#62;",
         "right_answer": 2
     },
     {
         "question": "Welcher HTML-Tag wird verwendet, um Links zu erstellen?",
-        "answer_1": "<link>",
-        "answer_2": "<a>",
-        "answer_3": "<href>",
-        "answer_4": "<url>",
+        "answer_1": "&#60;link&#62;",
+        "answer_2": "&#60;a&#62;",
+        "answer_3": "&#60;href&#62;",
+        "answer_4": "&#60;url&#62;",
         "right_answer": 2
     },
     {
-        "question": "Was ist der Zweck von <!DOCTYPE html>?",
+        "question": "Was ist der Zweck von <!DOCTYPE html&#62;?",
         "answer_1": "Um CSS einzufügen",
         "answer_2": "Um den Dokumenttyp zu definieren",
         "answer_3": "Um JavaScript hinzuzufügen",
@@ -57,16 +57,16 @@ let questions = [
     },
     {
         "question": "Welcher Tag wird verwendet, um eine ungeordnete Liste zu erstellen?",
-        "answer_1": "<ol>",
-        "answer_2": "<ul>",
-        "answer_3": "<list>",
-        "answer_4": "<items>",
+        "answer_1": "&#60;ol&#62;",
+        "answer_2": "&#60;ul&#62;",
+        "answer_3": "&#60;list&#62;",
+        "answer_4": "&#60;items&#62;",
         "right_answer": 2
     },
     {
         "question": "Wie kann man Kommentare in HTML hinzufügen?",
         "answer_1": "// Dies ist ein Kommentar",
-        "answer_2": "<!-- Dies ist ein Kommentar -->",
+        "answer_2": "&#60;!-- Dies ist ein Kommentar --&#62;",
         "answer_3": "# Dies ist ein Kommentar",
         "answer_4": "/* Dies ist ein Kommentar */",
         "right_answer": 2

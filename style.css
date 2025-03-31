@@ -32,3 +32,7 @@ body{
     cursor: pointer;
     background-color: rgb(247,247,247);
 }
+
+.d-none{
+    display: none;
+}
